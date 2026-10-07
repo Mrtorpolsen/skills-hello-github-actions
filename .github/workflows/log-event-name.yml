@@ -6,4 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Show log trigger
-        run: echo "Triggered by ${{ github.event_name }}
+        run: echo "Triggered by ${{ github.event_name }}"
