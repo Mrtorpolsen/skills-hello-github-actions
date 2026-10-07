@@ -7,5 +7,6 @@ jobs:
     steps:
       - name: Show log trigger
         run: echo "Triggered by ${{ github.event_name }}"
-          echo "Is this a second command"
+      - name: Second command
+        run: echo "This is now a second command"
         
