@@ -9,4 +9,8 @@ jobs:
         run: echo "Triggered by ${{ github.event_name }}"
       - name: Second command
         run: echo "This is now a second command"
+      - name: Multi line
+        run: |
+          echo "Triggered by ${{ github.event_name }}"
+          echo "This is now a second command"
         
