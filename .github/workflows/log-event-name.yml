@@ -1,0 +1,9 @@
+name: CI
+on:
+  workflow_dispatch:
+jobs:
+  log:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Show log trigger
+        run: echo "Triggered by ${{ github.event_name }}
