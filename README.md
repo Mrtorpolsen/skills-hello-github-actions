@@ -1,4 +1,6 @@
 
+[![CI](https://github.com/Mrtorpolsen/skills-hello-github-actions/actions/workflows/log-event-name.yml/badge.svg)](https://github.com/Mrtorpolsen/skills-hello-github-actions/actions/workflows/log-event-name.yml)
+
 <div align="center">
 
 # 🎉 Congratulations Mrtorpolsen! 🎉
