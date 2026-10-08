@@ -13,4 +13,8 @@ jobs:
         run: |
           echo "Triggered by ${{ github.event_name }}"
           echo "This is now a second command"
-        
+      - name: Upload aritfact
+        uses: actions/upload-artifact@main
+        with:
+          name: test
+          path: ./test
