@@ -16,6 +16,9 @@ jobs:
           echo "Triggered by ${{ github.event_name }}"
           echo "This is now a second command"
 
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Debug file path
         run: |
           pwd
